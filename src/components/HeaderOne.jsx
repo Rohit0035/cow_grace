@@ -110,18 +110,18 @@ const HeaderOne = () => {
                         {/* Nav Menu Start */}
                         <ul className="nav-menu flex-align nav-menu--mobile">
                             {/* Home Menu */}
-                            <li onClick={() => handleMenuClick(0)}
+                            {/* <li onClick={() => handleMenuClick(0)}
                                 className={`on-hover-item nav-menu__item has-submenu ${activeIndex === 0 ? "d-block" : ""
                                     }`}
                             >
                                 <Link
-                                    to="#"
+                                    to="/"
                                     className="nav-menu__link"
-
                                 >
                                     Home
                                 </Link>
-                                {/* <ul
+                                   
+                                <ul
                                     className={`on-hover-dropdown common-dropdown nav-submenu scroll-sm ${activeIndex === 0 ? "open" : ""
                                         }`}
                                 >
@@ -145,8 +145,8 @@ const HeaderOne = () => {
                                             Home Two
                                         </Link>
                                     </li>
-                                </ul> */}
-                            </li>
+                                </ul>
+                            </li> */}
 
                             {/* Shop Menu */}
                             {/* <li onClick={() => handleMenuClick(1)}
@@ -298,6 +298,30 @@ const HeaderOne = () => {
                                     Contact Us
                                 </Link>
                             </li> */}
+                                   <li className="on-hover-item nav-menu__item"><Link to="/" className="nav-menu__link">
+                                            HOME
+                                        </Link>
+                                    </li>
+                                    <li className="on-hover-item nav-menu__item">
+                                        <Link to="#" className="nav-menu__link">
+                                            ABOUT US
+                                        </Link>
+                                    </li>
+                                    <li className="on-hover-item nav-menu__item">
+                                        <Link to="#" className="nav-menu__link">
+                                           SHOP
+                                        </Link>
+                                    </li>
+                                    <li className="on-hover-item nav-menu__item">
+                                        <Link to="#" className="nav-menu__link">
+                                           BLOG
+                                        </Link>
+                                    </li>
+                                    <li className="on-hover-item nav-menu__item">
+                                        <Link to="#" className="nav-menu__link">
+                                           CONTACT US
+                                        </Link>
+                                    </li>
                         </ul>
                         {/* Nav Menu End */}
                     </div>
@@ -993,22 +1017,22 @@ const HeaderOne = () => {
                                             <i className="ph ph-magnifying-glass" />
                                         </span>
                                     </button>
-                                    <Link to="/cart" className="flex-align gap-4 item-hover">
+                                    <Link to="/" className="flex-align gap-4 item-hover">
                                         <span className="text-2xl text-gray-700 d-flex position-relative me-6 mt-6 item-hover__text">
                                             <i className="ph ph-heart" />
                                             <span className="w-16 h-16 flex-center rounded-circle bg-main-600 text-white text-xs position-absolute top-n6 end-n4">
-                                                2
+                                                0
                                             </span>
                                         </span>
                                         <span className="text-md text-gray-500 item-hover__text d-none d-lg-flex">
                                             Wishlist
                                         </span>
                                     </Link>
-                                    <Link to="/cart" className="flex-align gap-4 item-hover">
+                                    <Link to="/" className="flex-align gap-4 item-hover">
                                         <span className="text-2xl text-gray-700 d-flex position-relative me-6 mt-6 item-hover__text">
                                             <i className="ph ph-shopping-cart-simple" />
                                             <span className="w-16 h-16 flex-center rounded-circle bg-main-600 text-white text-xs position-absolute top-n6 end-n4">
-                                                2
+                                               0
                                             </span>
                                         </span>
                                         <span className="text-md text-gray-500 item-hover__text d-none d-lg-flex">
