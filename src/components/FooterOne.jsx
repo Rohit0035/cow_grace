@@ -19,14 +19,17 @@ const FooterOne = () => {
                             </Link>
                         </div>
                         <p className="mb-24">
-                            We're Grocery Shop, an innovative team of food supliers.
+                            We at Grace of Cows have been delivering <br/>
+                            fresh and unadulterated Desi A2 Gir cow <br/>
+                            milk and milk products in-and-around Pune. <br/>
                         </p>
                         <div className="flex-align gap-16 mb-16">
                             <span className="w-32 h-32 flex-center rounded-circle bg-main-600 text-white text-md flex-shrink-0">
                                 <i className="ph-fill ph-map-pin" />
                             </span>
                             <span className="text-md text-gray-900 ">
-                                789 Inner Lane, Biyes park, California, USA
+                                 Shop No 2, Avishkar Regency,<br/> Next to Mankar 
+                                 Dosa, Opp<br/> to CRU Mall, Gangadham, Marketyard<br/> - Pune 411037
                             </span>
                         </div>
                         <div className="flex-align gap-16 mb-16">

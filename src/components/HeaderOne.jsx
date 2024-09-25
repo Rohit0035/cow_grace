@@ -795,7 +795,7 @@ const HeaderOne = () => {
                                 {/* Nav Menu Start */}
                                 <ul className="nav-menu flex-align ">
                                    <li className="on-hover-item nav-menu__item">
-                                        <Link to="#" className="nav-menu__link">
+                                        <Link to="/" className="nav-menu__link">
                                             HOME
                                         </Link>
                                     </li>
@@ -809,11 +809,11 @@ const HeaderOne = () => {
                                            SHOP
                                         </Link>
                                     </li>
-                                    <li className="on-hover-item nav-menu__item">
+                                    {/* <li className="on-hover-item nav-menu__item">
                                         <Link to="#" className="nav-menu__link">
                                            BLOG
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li className="on-hover-item nav-menu__item">
                                         <Link to="#" className="nav-menu__link">
                                            CONTACT US
